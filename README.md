@@ -6,9 +6,10 @@ Paws Connect is a website accessible to both the general public and NGOs. Users 
 Conclusion 
 
 The primary goal of Paws Connect is to serve as a comprehensive platform that facilitates pet adoption, reports mishaps involving domestic animals, and enables NGOs to rescue animals in need. Additionally, it aims to provide a seamless experience for users to donate to support animal welfare efforts.
- This is readme.
 
- this is to pull req.
+Start with pawsConnect
+
+ 
 
 
 deployed link (frontend) :- https://paws-connect-yashbodhe2004-yashbodhe2004s-projects.vercel.app

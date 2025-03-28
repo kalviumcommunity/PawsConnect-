@@ -17,7 +17,7 @@
 }
 .container{ 
     display: flex;
-    background-color: #AAE290;
+    background:linear-gradient(rgba(48, 93, 1, 0.7),rgba(66, 110, 18, 0.7), rgba(187, 230, 140, 0.7) );
     height: 70vh;
     width: 45vw;
     border-radius: 8px;
