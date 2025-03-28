@@ -1,59 +1,89 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-.form-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-   
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.loginform {
-    background-color: #AAE290;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 300px;
-       
-  }
-  
-  .loginform label {
-    font-weight: bold;
-  }
-  
-  .loginform input {
-    width: 100%;
-    margin-bottom: 15px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-  }
-  
-  .loginform input[type="submit"] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    width: 100%;
-  }
-  
-  .loginform input[type="submit"]:hover {
-    background-color: #45a049;
-  }
-  
-.login-btn{
-    height: 3rem;
-    width: 6rem;
-    border-radius: 8px;
-    margin-left: 6rem;
-    font-weight: bolder;
-    font-size: 20px;
-  }
+.login-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to bottom right, #f5f3ff, #e9d5ff);
+  padding: 16px;
+}
 
-  
+.login-card {
+  width: 100%;
+  max-width: 400px;
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 32px;
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.login-card:hover {
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+}
+
+.login-icon {
+  height: 48px;
+  width: 48px;
+  color: #9333ea;
+}
+
+.login-title {
+  margin-top: 16px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #1f2937;
+}
+
+.login-subtitle {
+  margin-top: 8px;
+  color: #4b5563;
+}
+
+.login-input-container {
+  margin-top: 8px;
+  position: relative;
+}
+
+.login-input-icon {
+  position: absolute;
+  inset: 0;
+  left: 12px;
+  display: flex;
+  align-items: center;
+  color: #9ca3af;
+  pointer-events: none;
+}
+
+.login-input {
+  width: 100%;
+  padding: 12px 12px 12px 40px;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  outline: none;
+  transition: border-color 0.2s ease-in-out;
+}
+
+.login-input:focus {
+  border-color: #9333ea;
+}
+
+.login-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #9333ea;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 8px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.login-button:hover {
+  background-color: #7e22ce;
+}
